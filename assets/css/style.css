@@ -5,7 +5,6 @@
 body {
     background-image: url("../images/tree_bark.png");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
 }
 
 .contents {
@@ -15,15 +14,26 @@ body {
     clear: both;
 }
 
+#treeContainer {
+    display: absolute;
+    clear: both;
+}
+
 .trees {
     width: 75px;
     height: 93px;
     margin: 15px;
     border-style: ridge;
     border-width: 5px;
+    clear: both;
 }
 
-.treeContainter {
+.hearts {
+    width: 75px;
+    height: 93px;
+    margin: 15px;
+    z-index: 99;
+    opacity: 0;
     clear: both;
 }
 
@@ -31,14 +41,15 @@ body {
     background-color: #ff912c;
     border: 1px solid #ffffff;
     padding: 20px;
-    width: 225px;
+    width: 25%;
     height: 95px;
     font-size: 18px;
     margin-top: 20px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* float: left; */
+    float: left;
     height: 95px;
 }
 
@@ -46,12 +57,13 @@ body {
     background-color: #0090b2;
     border: 1px solid #ffffff;
     padding: 20px;
-    width: 225px;
+    width: 25%;
     font-size: 18px;
+    margin-top: 20px;
     text-align: center;
     line-height: 1.5; 
     height: 95px;
-    /* float: left;    */
+    float: left;   
 }
 
 .karma {
