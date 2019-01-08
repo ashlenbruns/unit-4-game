@@ -28,15 +28,6 @@ body {
     clear: both;
 }
 
-.hearts {
-    width: 75px;
-    height: 93px;
-    margin: 15px;
-    z-index: 99;
-    opacity: 0;
-    clear: both;
-}
-
 .target {
     background-color: #ff912c;
     border: 1px solid #ffffff;
